@@ -135,6 +135,6 @@ describe("Calculos Combinados - Operações Mistas", () => {
     cy.get('[data-cy="+"]').click();
     cy.get('[data-cy="/"]').click();
     cy.get('[data-cy="="]').click();
-    cy.get('[data-cy="display-container"]').should('have.text', 'Resultado Indefinido');
+    cy.get('[data-cy="display-container"]').should('have.text', 'Resultado indefinido');
   });
 });

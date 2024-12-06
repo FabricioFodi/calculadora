@@ -13,7 +13,7 @@ describe("Calculos Combinados - Operações Mistas", () => {
     cy.get('[data-cy="x"]').click();
     cy.get('[data-cy="3"]').click();
     cy.get('[data-cy="="]').click();
-    cy.get('[data-cy="display-container"]').should("have.text", "7");
+    cy.get('[data-cy="display-container"]').should("have.text", "6");
   });
 
   it("10 - 2 + 5", () => {

@@ -5,7 +5,7 @@ describe("Calculos Combinados - Operações Mistas", () => {
     cy.visit("http://localhost:5173/");
   });
 
-  it("1 + 2 * 3", () => {
+  it("1 + 2 + 3", () => {
     cy.get('[data-cy="1"]').click();
     cy.get('[data-cy="+"]').click();
     cy.get('[data-cy="2"]').click();
